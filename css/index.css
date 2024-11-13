@@ -19,6 +19,8 @@
 .card_top{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .rating{
@@ -101,4 +103,8 @@ footer{
 
 .navbar-light .navbar-toggler-icon {
     background-color: white;
+}
+
+.right > .card-text{
+    font-weight: 700;
 }
